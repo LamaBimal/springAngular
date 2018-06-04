@@ -1,0 +1,14 @@
+---
+server:
+  port: 8081
+  context-path: /springAngular
+---
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/spring_database
+    username: springUser
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
